@@ -7,7 +7,7 @@ const user = {
 
   user.mood = 'happy';
   user.hobby = 'skydiving';
-  user.premium = 'false';
+  user.premium = false;
 
   const keys = Object.keys(user);
 

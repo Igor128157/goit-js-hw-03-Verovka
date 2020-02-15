@@ -1,8 +1,8 @@
 const countTotalSalary = function(employees) {
 
     let sum = 0;
-    for (let salary of Object.values(employees)) {
-      sum += salary;
+    for (let key of employees) {
+      sum += employees[key];
     }
     return sum;
   };
