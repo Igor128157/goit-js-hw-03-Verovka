@@ -1,7 +1,7 @@
 const countTotalSalary = function(employees) {
 
     let sum = 0;
-    for (let key of employees) {
+    for (let key in employees) {
       sum += employees[key];
     }
     return sum;
